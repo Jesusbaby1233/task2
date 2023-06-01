@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+</head>
+<body>
+    <header class="flex justify-between ">
+        <div></div>
+        <button id="menubutton" class="font-black text-2xl focus:outline-none pl-[90%] sm:hidden">&#9776</button>
+        <nav class="px-8 ">
+            <ul class="flex justify-around py-5 font-semibold text-xl text-black max-[600px]:hidden">
+                <li class=" pr-8 hover:text-[#FF6464]" ><a href="#">Blog</a></li>
+                <li class=" pr-8 hover:text-[#FF6464]"><a href="#">Works</a></li>
+                <li class=" pr-12 hover:text-[#FF6464]"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-[2rem] font-extrabold py-6 pr-[37%]">Blog</p>
+      <div>
+        <div>
+          <p class="text-3xl font-[500] pb-2 max-[600px]:text-2xl">UI Interactions of the week</p>
+          <div class="flex py-3">
+            <p class="pr-4">12 Feb 2019</p>
+            <p class="pr-4">|</p>
+            <p class="text-xl text-[#8695A4] max-[600px]:text-lg">Express, Handlebarsd</p>
+          </div>
+          <p class="text-[16px] max-[600px]:text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </div>
+      <img src="/assets/Vector 8.png" alt="png" class="py-3">
+      
+        <div>
+          <p class="text-3xl font-[500] pb-2 max-[600px]:text-2xl">UI Interactions of the week</p>
+          <div class="flex py-3">
+            <p class="pr-4">12 Feb 2019</p>
+            <p class="pr-4">|</p>
+            <p class="text-xl text-[#8695A4] max-[600px]:text-lg">Express, Handlebarsd</p>
+          </div>
+          <p class="text-[16px] max-[600px]:text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      
+      <img src="/assets/Vector 8.png" alt="png" class="py-3">
+        <div>
+          <p class="text-3xl font-[500] pb-2 max-[600px]:text-2xl">UI Interactions of the week</p>
+          <div class="flex py-3">
+            <p class="pr-4">12 Feb 2019</p>
+            <p class="pr-4">|</p>
+            <p class="text-xl text-[#8695A4] max-[600px]:text-lg">Express, Handlebarsd</p>
+          </div>
+          <p class="text-[500] max-[600px]:text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      
+      <img src="/assets/Vector 8.png" alt="png" class="py-3 ">
+      <div>
+        <p class="text-3xl font-[500] pb-2 max-[600px]:text-2xl">UI Interactions of the week</p>
+        <div class="flex py-3">
+          <p class="pr-4">12 Feb 2019</p>
+          <p class="pr-4">|</p>
+            <p class="text-xl text-[#8695A4] max-[600px]:text-lg">Express, Handlebarsd</p>
+          </div>
+          <p class="text-[16px] max-[600px]:text-sm">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      
+      <img src="/assets/Vector 8.png" alt="png" class="py-3">
+       
+    </div>
+    <footer class="flex justify-center items-center flex-col p-20">
+      <div class="flex justify-around">
+        <img src="/assets/fb.png" alt="logo" class="px-4">
+        <img src="/assets/insta.png" alt="logo" class="px-4">
+        <img src="/assets/Vector.png" alt="logo" class="px-4">
+        <img src="/assets/Linkedin.png" alt="logo" class="px-4">
+      </div>
+      <p class="text-sm pt-10">Copyright ©2020 All rights reserved </p>
+    </footer>
+</body>
+</html>
